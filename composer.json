@@ -1,0 +1,26 @@
+{
+  "name": "noroman/leads",
+  "keywords": [
+    "leads.su",
+    "CPA tracker"
+  ],
+  "created": 2017,
+  "type": "library",
+  "license": "MIT",
+  "minimum-stability": "stable",
+  "authors": [
+    {
+      "name": "Roman Novikov",
+      "email": "service.for.roman@gmail.com",
+      "role": "developer"
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "^6.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Leads\\": "src/"
+    }
+  }
+}
